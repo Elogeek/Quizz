@@ -5,14 +5,19 @@
         {
           "1": "Par qui le sushi a été inventé?",
           "2": "Qui est Eugénie Brazier?",
-          "3": "En quelle fû inventé la crêpe?",
+          "3": "En quelle fût inventé la crêpe?",
           "4": "Qui a écrit la série de manga Demon Slayer?",
-          "5": "Quel groupe à réaliser l'opening << Haruka Kanata »?",
-          "6": "Donner un synonime du mot <<kawai>> ?",
-          "7": "Quel est le but du mouvement des Lumières?",
+          "5": "Quel groupe à réalisé l'opening << Haruka Kanata »?",
+          "6": "Donner un synonyme du mot <<kawai>> ?",
+          "7": "Qui est Léonard de Vinci ?",
           "8": "C'est quoi la cuisine fusion?",
           "9": "Que veut dire la phrase <<パリに行きます /Pari ni ikimasu>>?",
-          "10": "Parmi les animaux suivants, lequel peut vivre sans manger?"
+          "10": "Parmi les animaux suivants, lequel peut vivre sans manger?",
+          "11": "Quel est le plus grand lac du Pérou ?",
+          "12": "Le Mont Blanc à une altitude de combien de mètres ?",
+          "13": "Comment dit-on glaces en italien ?",
+          "14": "En quelle année fut créé le thé ?",
+          "15": "Comment s'appelle le sandwich japonais ?"
         }
       ],
       "reponse": [
@@ -67,10 +72,10 @@
           ],
           "7": [
             {
-              "1": "C'est un mouvement qui a pour but de sortir le peuple de l'obscurantisme par la connaissance. Il voulait mettre en avant la raison et l'expérience pour faire face aux préjugés et aux superstitions.",
-              "2": "C'est un mouvement qui a pour but d' apprendre à mettre une apoule corrrectement",
-              "3": "C'est un groupe de musique",
-              "4": "C'est un groupe d'intellos en pleine périodes d'ados qui se prenaient pour <<le monde>>"
+              "1": "Un explorateur",
+              "2": "Un musicien",
+              "3": "Un curé",
+              "4": "Un artiste full-stack"
             }
           ],
           "8": [
@@ -95,6 +100,46 @@
               "2": "La trortue à nez de cochon",
               "3": "La pieuvre Dumbo",
               "4": "L'axolotl"
+            }
+          ],
+          "11": [
+            {
+              "1": "Huascaran",
+              "2": "Léman",
+              "3": "Yangzi Jiang",
+              "4": "Titicaca"
+            }
+          ],
+          "12": [
+            {
+              "1": "5000m",
+              "2": "3690m",
+              "3": "4950m",
+              "4": "4809m"
+            }
+          ],
+          "13": [
+            {
+              "1": "Arancini",
+              "2": "Semifreddo",
+              "3": "Gelati",
+              "4": "Nutellotti"
+            }
+          ],
+          "14": [
+            {
+              "1": "Environ 5000 ans, au Maroc",
+              "2": "Pendant l'antiquité",
+              "3": "En Inde,avant JC",
+              "4": "Environ 5000 ans en Chine"
+            }
+          ],
+          "15": [
+            {
+              "1": "Sushi",
+              "2": "Onigiri",
+              "3": "Donburi",
+              "4": "Bento"
             }
           ]
         }

@@ -2,10 +2,75 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Quizz</title>
+    <title>Quizz avec jQuery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="container">
+        <div id="overlay">
+            Bienvenue, répondez  au questionnaire à choix multiples.<br>
+            Vous ne pouvez choisir qu'une seule réponse ! <br>
+            Que la froce soit avec vous!!! Bonne chance ou pas!
+            <button id="play">Play</button>
+        </div>
+
+        <div id="myQuestions">
+            <div id="questionNumber"></div>
+            <div id="question"></div>
+
+            <div id="choices">
+
+                <div id="One">
+                    <label for="choice1">1</label>
+                    <input id="choice1" type="checkbox">
+                    <p class="inline" id="answer1"></p>
+                </div>
+
+                <div id="Two">
+                    <label for="choice2">2</label>
+                    <input id="choice2" type="checkbox">
+                    <p class="inline" id="answer2"></p>
+                </div>
+
+                <div id="Three">
+                    <label for="choice3">3</label>
+                    <input id="choice3" type="checkbox">
+                    <p class="inline" id="answer3"></p>
+                </div>
+
+                <div id="Four">
+                    <label for="choice4">4</label>
+                    <input id="choice4" type="checkbox">
+                    <p class="inline" id="answer4"></p>
+                </div>
+
+                <button id="Ok">Valider</button>
+
+            </div>
+
+        </div>
+
+        <div id="myResult">
+            <div id="score">Vous avez obtenu <span>0</span>/10</div>
+
+            <div id="answers">
+                <p id="answerOne"></p>
+                <p id="answerTwo"></p>
+                <p id="answerThree"></p>
+                <p id="answerFour"></p>
+                <p id="answerFive"></p>
+                <p id="answerSix"></p>
+                <p id="answerSeven"></p>
+                <p id="answerHeight"></p>
+                <p id="answerNine"></p>
+                <p id="answerTen"></p>
+            </div>
+
+        </div>
+    </div>
+
+    <audio loop src="gong-4.mp3"></audio>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="script.js"></script>
